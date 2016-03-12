@@ -3,7 +3,7 @@ html body .app-footer {
   min-height: 170px;
   background-color: rgba(0, 0, 0, .86);
   color: rgb(153, 151, 156);
-
+  padding-bottom: 20px;
 }
 
 html body .app-footer a {
