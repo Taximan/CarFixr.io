@@ -1,0 +1,13 @@
+html body .app-wrapper {
+  min-height: 100vh;
+}
+
+html body .btn.btn-lg {
+  border-radius: 50px;
+  background-color: #275A2A;
+  border-color: #274A23;
+}
+
+html body .btn.btn-lg:active {
+  background-color: #1C421E !important;
+}

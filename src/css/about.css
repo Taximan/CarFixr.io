@@ -1,0 +1,38 @@
+html body .app-about {
+}
+
+html body .app-about .thumbnail {
+  height: 370px;
+}
+
+html body .app-about .thumbnail img {
+  border-radius: 50%;
+  margin-top: 12px;
+}
+
+html body .app-about .thumbnail > .glyphicon {
+  display: block;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  margin: 12px auto;
+  text-align: center;
+  font-size: 99px;
+  /*background-color: rgba(0, 0, 0, 0.86);*/
+  color: white;
+  border-radius: 50%;
+}
+
+/*  background-color: #FFFF00; #673AB7; #4CAF50;  */
+
+html body .app-about .glyphicon-flash {
+  background-color: #F44336;
+}
+
+html body .app-about .glyphicon-wrench {
+  background-color: #673AB7;
+}
+
+html body .app-about .glyphicon-usd {
+  background-color: #4CAF50;
+}

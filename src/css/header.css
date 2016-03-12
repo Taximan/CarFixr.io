@@ -1,0 +1,38 @@
+html body .app-header {
+  background-image: url('../imgs/pexels-photo-large.jpeg');
+  padding: 120px 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 100% 100%;
+}
+
+html body .app-header .container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, .86);
+}
+
+html body .app-header .container h1 {
+  width: 400px;
+  text-align: center;
+  font-weight: 800;
+}
+
+html body .app-header .container .hr {
+  height: 3px;
+  width: 50px;
+  background-color: black;
+}
+
+html body .app-header .container p {
+  width: 300px;
+  text-align: left;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+html body .app-header .container a.btn {
+  width: 300px;
+}
