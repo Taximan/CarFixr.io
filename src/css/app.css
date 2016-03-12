@@ -10,4 +10,5 @@ html body .btn.btn-lg {
 
 html body .btn.btn-lg:active {
   background-color: #1C421E !important;
+  border-color: white;
 }
