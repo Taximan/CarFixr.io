@@ -1,0 +1,47 @@
+html body .app-footer {
+  margin-top: 30px;
+  min-height: 170px;
+  background-color: rgba(0, 0, 0, .86);
+  color: rgb(153, 151, 156);
+
+}
+
+html body .app-footer a {
+  color: white;
+  font-weight: 600;
+  border-bottom: 10px solid transparent;
+  text-decoration: none;
+  padding-bottom: 3px;
+  cursor: pointer;
+}
+
+html body .app-footer a:active, html body .app-footer a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid white;
+}
+
+
+html body .app-footer .app-footer-links {
+
+}
+
+
+html body .app-footer .app-footer-links ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 12px;
+  padding-top: 30px;
+  list-style: none;
+}
+
+html body .app-footer .app-footer-links li {
+  width: 100px;
+}
+
+html body .app-footer .app-footer-note p {
+  margin: 0;
+  display: inline-block;
+}
