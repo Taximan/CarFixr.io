@@ -1,0 +1,29 @@
+html body .app-contact {
+
+}
+
+html body .app-contact .google-maps {
+  width: 100% !important;
+  height: 200px;
+}
+
+
+html body .app-contact .office .panel-body div  {
+  margin: 3px 0;
+}
+
+html body .app-contact .panel .table th {
+  border-top: none;
+}
+
+html body .app-contact .panel {
+  margin-bottom: 7px;
+}
+
+html body .app-contact .contact-form-container {
+  min-height: 570px;
+}
+
+html body .app-contact .contact-form-container .panel-body {
+  padding-top: 20px;
+}
