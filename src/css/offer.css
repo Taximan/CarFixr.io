@@ -75,6 +75,7 @@ html body .app-offer .container-fluid ul li .card .card-price .glyphicon {
 html body .app-offer .container-fluid ul li .card a.btn {
   color: #8DC26F;
   border: 3px solid #8DC26F;
+  font-weight: bold;
   border-radius: 23px; 
   padding-right: 0px;
   padding-left: 0px;
