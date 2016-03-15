@@ -9,7 +9,9 @@
   "author": "Dawid Czarnik",
   "license": "MIT",
   "dependencies": {
+    "bootstrap-validator": "^0.10.1",
     "jquery": "^2.2.1",
+    "jquery.scrollto": "^2.1.2",
     "merge": "^1.2.0"
   },
   "devDependencies": {
