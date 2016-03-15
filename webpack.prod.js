@@ -5,6 +5,9 @@ var webpack = require('webpack');
 
 module.exports = extend(defaults, {
   devtool: 'source-map',
+  output: extend(defaults.output, {
+    publicPath: '/carfixr.io/'
+  }),
   plugins: defaults.plugins.concat([
     new webpack.optimize.UglifyJsPlugin({}),
     new webpack.optimize.OccurenceOrderPlugin(),
