@@ -4,4 +4,6 @@ html body .app-navbar {
   background: rgba(0, 0, 0, 0.87);
 }
 
-
+html body .app-navbar .nav a:focus{
+  color: rgb(157, 157, 157);
+}

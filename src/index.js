@@ -10,3 +10,6 @@ import './css/footer.css';
 
 import jquery from 'jquery';
 import 'imports?jQuery=jquery!./js/bootstrap.js';
+
+
+import './js/navigation';
