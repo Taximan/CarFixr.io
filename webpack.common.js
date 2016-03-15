@@ -39,7 +39,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: './src/index.html' }),
+    new HtmlWebpackPlugin({ template: './src/index.html', favicon: './src/imgs/favicon.ico' }),
     new ExtractTextPlugin("styles.css"),
   ],
   module: {

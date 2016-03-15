@@ -6,7 +6,7 @@ var webpack = require('webpack');
 module.exports = extend(defaults, {
   devtool: 'source-map',
   output: extend(defaults.output, {
-    publicPath: '/carfixr.io/'
+    publicPath: '/CarFixr.io/'
   }),
   plugins: defaults.plugins.concat([
     new webpack.optimize.UglifyJsPlugin({}),
