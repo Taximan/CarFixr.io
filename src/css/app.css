@@ -1,5 +1,6 @@
 html body .app-wrapper {
   min-height: 100vh;
+  position: relative;
 }
 
 html body .btn.btn-lg {
