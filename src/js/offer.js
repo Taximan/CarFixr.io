@@ -11,8 +11,10 @@ const genClickHandler = ({index, message}) => {
   return function (e) {
     e.preventDefault();
     fillContactForm(index, message);
-    scrollTo($form, 300, {offset: -150});
-    $form.find('input').first().focus();
+    setTimeout(() => {
+      scrollTo($form, 300, {offset: -150});
+      $form.find('input').first().focus();
+    }, 150);
   };
 }; 
 

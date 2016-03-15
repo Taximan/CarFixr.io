@@ -11,7 +11,7 @@
 }
 
 html body .green-ripple-wrapper {
-	background: rgba(141, 194, 111, 0.4) !important;
+	background: rgba(141, 194, 111, 0.7) !important;
 }
 
 .ripple-wrapper.animated, .green-ripple-wrapper {

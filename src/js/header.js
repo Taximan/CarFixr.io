@@ -3,4 +3,8 @@ import scrollTo from 'jquery.scrollto';
 
 var callToActionButton = $('.app-header .btn-lg.btn-primary');
 
-callToActionButton.on('click', () => scrollTo($('#about'), 300, {offset: -50}));
+callToActionButton.on('click', () => {
+  setTimeout(() => {
+    scrollTo($('#about'), 300, {offset: -50});
+  }, 70);
+});
