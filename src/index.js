@@ -13,3 +13,4 @@ import 'imports?jQuery=jquery!./js/bootstrap.js';
 
 
 import './js/navigation';
+import './js/footer';

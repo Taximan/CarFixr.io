@@ -1,3 +1,3 @@
 import {navifiy} from './utils';
 
-navifiy('.nav a');
+navifiy('.app-footer-links ul a');
