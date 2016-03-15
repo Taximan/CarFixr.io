@@ -11,7 +11,7 @@ html body .app-header .container {
   flex-flow: column nowrap;
   align-items: center;
   justify-content: space-between;
-  color: rgba(0, 0, 0, .86);
+  color: white;
 }
 
 html body .app-header .container h1 {
@@ -23,7 +23,7 @@ html body .app-header .container h1 {
 html body .app-header .container .hr {
   height: 3px;
   width: 50px;
-  background-color: black;
+  background-color: white;
 }
 
 html body .app-header .container p {
