@@ -1,0 +1,42 @@
+html body .app-offer {
+
+}
+
+html body .app-offer .container-fluid {
+  min-height: 400px;
+  background-color: rgb(234, 234, 234);
+}
+
+html body .app-offer .container-fluid ul {
+  list-style: none;
+}
+
+html body .app-offer .container-fluid  > ul > li {
+  width: 240px;
+  background-color: white;
+  height: 300px;
+}
+
+html body .app-offer .container-fluid ul li .card {
+
+}
+
+html body .app-offer .container-fluid ul li .card .card-title {
+
+}
+
+html body .app-offer .container-fluid ul li .card .card-props {
+
+}
+
+html body .app-offer .container-fluid ul li .card .card-props li {
+
+}
+
+html body .app-offer .container-fluid ul li .card .card-price {
+
+}
+
+html body .app-offer .container-fluid ul li .card a.btn {
+
+}
