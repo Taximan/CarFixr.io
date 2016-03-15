@@ -4,39 +4,82 @@ html body .app-offer {
 
 html body .app-offer .container-fluid {
   min-height: 400px;
-  background-color: rgb(234, 234, 234);
+  background: linear-gradient(to left, #76b852 , #8DC26F);
 }
 
-html body .app-offer .container-fluid ul {
+html body .app-offer .container-fluid > ul {
   list-style: none;
+  min-height: 300px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
 }
 
 html body .app-offer .container-fluid  > ul > li {
   width: 240px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 1);
   height: 300px;
+  margin-left: 1px;
+  margin-top: 1px;
+  position: relative;
 }
 
 html body .app-offer .container-fluid ul li .card {
-
+  text-align: center;
 }
 
 html body .app-offer .container-fluid ul li .card .card-title {
-
+  text-transform: uppercase;
+  font-size: 18px;
+  width: 100%;
+  background-color: rgba(225, 225, 225, 1);
+  padding: 7px 0;
+  text-align: center;
+  font-weight: 800;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 html body .app-offer .container-fluid ul li .card .card-props {
-
+  text-align: left;
+  margin-top: 12px;
+  list-style: none;
+  padding: 0 12px;
 }
 
 html body .app-offer .container-fluid ul li .card .card-props li {
 
 }
 
+html body .app-offer .container-fluid ul li .card .card-props li:before {
+  content: "\e013";
+  font-family: 'Glyphicons Halflings';
+  color: #8DC26F;
+  margin-right: 7px;
+  display: inline-text;
+}
+
 html body .app-offer .container-fluid ul li .card .card-price {
+  color: #8DC26F;
+  font-size: 56px;
+  text-align: center;
+  font-weight: bold;
+}
+
+html body .app-offer .container-fluid ul li .card .card-price .glyphicon {
+  font-size: .7em;
 
 }
 
 html body .app-offer .container-fluid ul li .card a.btn {
-
+  color: #8DC26F;
+  border: 3px solid #8DC26F;
+  border-radius: 23px; 
+  padding-right: 0px;
+  padding-left: 0px;
+  position: absolute;
+  bottom: 20px;
+  width: 100px;
+  left: calc(50% - 50px);
 }
