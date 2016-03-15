@@ -15,7 +15,8 @@ import 'imports?jQuery=jquery!./js/bootstrap.js';
 
 import './js/navigation';
 import './js/header';
-import './js/contact.js';
+import './js/offer';
+import './js/contact';
 import './js/footer';
 
 // general app scripts

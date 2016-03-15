@@ -16,6 +16,11 @@ html body .app-contact .panel .table th {
   border-top: none;
 }
 
+html body .app-contact .panel .table {
+  min-height: 302px;
+}
+
+
 html body .app-contact .panel {
   margin-bottom: 7px;
 }
